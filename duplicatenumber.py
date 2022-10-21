@@ -1,5 +1,4 @@
-from os import dup
-from cv2 import arrowedLine
+
 
 
 def method(arr):
