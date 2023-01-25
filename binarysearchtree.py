@@ -25,13 +25,14 @@ class BST:
         while value is not None:
             print(value.key)
             value=value.lchild
-        value = self.rchild
+
+        # value = self.rchild
         while value is not None:
             print(value.key)
             value=value.rchild
 
-root = BST(20)
-list1 = [30,10,5,40,70]
+root = BST(None)
+list1 = [30,5,10,40,70]
 print(list1)
 for i in list1:
     root.insert(i)

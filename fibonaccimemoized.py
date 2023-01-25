@@ -7,6 +7,7 @@ class Solution:
         else:
             result = self.meth(n-1,memo)+self.meth(n-2,memo)
             memo[n]=result
+            print(memo[n],end='')
         return result
 
 
@@ -14,4 +15,9 @@ obj = Solution()
 n=7
 mem=[None]*(n)
 x=obj.meth(n-1,mem)
-print(x)
+print('')
+print( x)
+
+
+
+
